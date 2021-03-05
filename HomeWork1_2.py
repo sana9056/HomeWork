@@ -30,6 +30,7 @@ for i in range(0, len(my_list), 1):
         my_list[i] = my_list[i] // 10
     if sum_of_number % 7 == 0:
         sum_counter += count
+    sum_of_number = 0
 print("Число, которое получается в сумме чисел, сумма цифр которых делится нацело на 7 равна:")
 print(sum_counter)
 
